@@ -1,5 +1,5 @@
 {
-  "development": {
+  "production": {
     "host": "bhozxykuoennzknko0rr-mysql.services.clever-cloud.com",
     "username": "uvzojtu7gybeqrbx",
     "password": "QVCYVCBNHIrafoi3nK7J",
@@ -13,7 +13,7 @@
     "database": "bhozxykuoennzknko0rr",
     "dialect": "mysql"
   },
-  "production": {
+  "development": {
     "username": "root",
     "password": null,
     "database": "database_production",
