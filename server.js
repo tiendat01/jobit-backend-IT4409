@@ -68,8 +68,8 @@ app.get("/get-token", (req, res) => {
       .catch((error) => console.error("error", error));
   });
 
-require('./routes/loginCompany')(app);
-require('./routes/loginUser')(app);
+require('./routes/LoginCompany')(app);
+require('./routes/LoginUser')(app);
 require('./routes/LoginAdmin')(app);
 require('./routes/Tag')(app);
 require('./routes/Statistical')(app);
@@ -84,7 +84,7 @@ require('./routes/SocialNetwork')(app);
 require('./routes/Candidate')(app);
 require('./routes/Recruiment')(app);
 require('./routes/TagWork')(app);
-require('./routes/worktypeofwork')(app);
+require('./routes/WorkTypeOfWork')(app);
 require('./routes/UserTag')(app);
 require('./routes/SaveWork')(app);
 require('./routes/WordId')(app);
